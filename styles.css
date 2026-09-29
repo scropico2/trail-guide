@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .difficulty.easy {
     color: green;
 }
@@ -13,4 +17,21 @@
 .trail {
     padding: 20px;
     border: solid 2px black;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: khaki;
+}
+
+h3 {
+    border-bottom: solid 1px black;
+    padding-bottom: 8px;
+}
+
+li {
+    border-bottom: solid 2px green;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
