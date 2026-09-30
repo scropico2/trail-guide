@@ -2,15 +2,24 @@
     box-sizing: border-box;
 }
 
-.difficulty.easy {
+.difficulity {
+    background-color: gold;
+    margin: 15px;
+    display: inline-block;
+    padding: 12px;
+}
+
+/*with only margin this doesnt have display:inline-block, while adding it, it changes the whole perspective*/
+
+.difficulity.easy {
     color: green;
 }
 
-.difficulty.moderate {
+.difficulity.moderate {
     color: orange;
 }
 
-.difficulty.hard {
+.difficulity.hard {
     color: red;
 }
 
@@ -27,11 +36,61 @@ h3 {
     padding-bottom: 8px;
 }
 
+
 li {
     border-bottom: solid 2px green;
+    color: lightcoral;
+    border: 1px solid black;
+    padding: 6px;
+    margin: 2px;
+
 }
+
+.nav {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li.essential {
+    color: black;
+}
+
+/* this one gives a specific line color black as it has it's own class */
+
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+p.tip {
+    color: red;
+}
+
+p#important {
+    color: coral;
+}
+
+.button {
+    display: inline-block;
+    padding: 4px;
+    background-color: mediumvioletred;
+    border: solid 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: darkviolet;
+}
+
+.quanity {
+    color: aqua;
+    background-color: black;
 }
